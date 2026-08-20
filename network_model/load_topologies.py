@@ -1,0 +1,1 @@
+print("Network model module initialized.")
