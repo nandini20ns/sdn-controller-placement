@@ -1,9 +1,9 @@
 import os
 import networkx as nx
 from collections import Counter
+from network_model.edge_weights import add_edge_weights
 
-from edge_weights import add_edge_weights
-from assignment import assign_nodes_to_controllers
+from network_model.assignment import assign_nodes_to_controllers
 
 
 def score_placement(G, controllers):

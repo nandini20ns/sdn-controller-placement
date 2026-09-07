@@ -1,7 +1,7 @@
 import os
 import networkx as nx
 
-from edge_weights import add_edge_weights
+from network_model.edge_weights import add_edge_weights
 
 
 def assign_nodes_to_controllers(G, controllers):
