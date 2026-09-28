@@ -1,0 +1,399 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="edge" attr.name="queue" attr.type="long" />
+  <key id="d4" for="edge" attr.name="delay" attr.type="double" />
+  <key id="d3" for="edge" attr.name="metric" attr.type="long" />
+  <key id="d2" for="edge" attr.name="capacity" attr.type="string" />
+  <key id="d1" for="node" attr.name="latitude" attr.type="double" />
+  <key id="d0" for="node" attr.name="longitude" attr.type="double" />
+  <graph edgedefault="undirected">
+    <node id="Sunnyvale">
+      <data key="d0">-122.038258</data>
+      <data key="d1">37.371612</data>
+    </node>
+    <node id="Nashville">
+      <data key="d0">-86.778365</data>
+      <data key="d1">36.167783</data>
+    </node>
+    <node id="Raleigh">
+      <data key="d0">-78.642669</data>
+      <data key="d1">35.78551</data>
+    </node>
+    <node id="Chicago">
+      <data key="d0">-87.632409</data>
+      <data key="d1">41.88415</data>
+    </node>
+    <node id="El_Paso">
+      <data key="d0">-106.487494</data>
+      <data key="d1">31.759165</data>
+    </node>
+    <node id="Denver">
+      <data key="d0">-104.992259</data>
+      <data key="d1">39.74001</data>
+    </node>
+    <node id="Dallas">
+      <data key="d0">-96.795404</data>
+      <data key="d1">32.778155</data>
+    </node>
+    <node id="Louisville">
+      <data key="d0">-85.766404</data>
+      <data key="d1">38.25486</data>
+    </node>
+    <node id="Vancouver">
+      <data key="d0">-123.114034</data>
+      <data key="d1">49.26044</data>
+    </node>
+    <node id="Washington">
+      <data key="d0">-77.031959</data>
+      <data key="d1">38.89037</data>
+    </node>
+    <node id="Indianapolis">
+      <data key="d0">-86.149964</data>
+      <data key="d1">39.76691</data>
+    </node>
+    <node id="Pittsburgh">
+      <data key="d0">-79.997459</data>
+      <data key="d1">40.438335</data>
+    </node>
+    <node id="Baton_Rouge">
+      <data key="d0">-91.186994</data>
+      <data key="d1">30.443335</data>
+    </node>
+    <node id="Albuquerque">
+      <data key="d0">-106.648639</data>
+      <data key="d1">35.08418</data>
+    </node>
+    <node id="Los_Angeles">
+      <data key="d0">-118.245319</data>
+      <data key="d1">34.05349</data>
+    </node>
+    <node id="Atlanta">
+      <data key="d0">-84.391109</data>
+      <data key="d1">33.748315</data>
+    </node>
+    <node id="Memphis">
+      <data key="d0">-90.048929</data>
+      <data key="d1">35.14968</data>
+    </node>
+    <node id="Jacksonville">
+      <data key="d0">-81.655799</data>
+      <data key="d1">30.33138</data>
+    </node>
+    <node id="Miami">
+      <data key="d0">-80.237419</data>
+      <data key="d1">25.728985</data>
+    </node>
+    <node id="Kansas_City">
+      <data key="d0">-94.583062</data>
+      <data key="d1">39.10296</data>
+    </node>
+    <node id="Missoula">
+      <data key="d0">-113.996234</data>
+      <data key="d1">46.87278</data>
+    </node>
+    <node id="Philadelphia">
+      <data key="d0">-75.162369</data>
+      <data key="d1">39.95227</data>
+    </node>
+    <node id="Tucson">
+      <data key="d0">-110.969754</data>
+      <data key="d1">32.221553</data>
+    </node>
+    <node id="Buffalo">
+      <data key="d0">-78.878464</data>
+      <data key="d1">42.88544</data>
+    </node>
+    <node id="Houston">
+      <data key="d0">-95.369784</data>
+      <data key="d1">29.76045</data>
+    </node>
+    <node id="Boston">
+      <data key="d0">-71.056699</data>
+      <data key="d1">42.358635</data>
+    </node>
+    <node id="Minneapolis">
+      <data key="d0">-93.264929</data>
+      <data key="d1">44.979035</data>
+    </node>
+    <node id="New_York">
+      <data key="d0">-74.007124</data>
+      <data key="d1">40.71455</data>
+    </node>
+    <node id="Salt_Lake_City">
+      <data key="d0">-111.888229</data>
+      <data key="d1">40.759505</data>
+    </node>
+    <node id="Cleveland">
+      <data key="d0">-81.690459</data>
+      <data key="d1">41.504365</data>
+    </node>
+    <node id="Jackson">
+      <data key="d0">-90.180489</data>
+      <data key="d1">32.29869</data>
+    </node>
+    <node id="Portland">
+      <data key="d0">-122.675629</data>
+      <data key="d1">45.511795</data>
+    </node>
+    <node id="Seattle">
+      <data key="d0">-122.329439</data>
+      <data key="d1">47.60356</data>
+    </node>
+    <node id="Ashburn">
+      <data key="d0">-77.483151</data>
+      <data key="d1">39.051631</data>
+    </node>
+    <edge source="Sunnyvale" target="Los_Angeles">
+      <data key="d2">100Gbps</data>
+      <data key="d3">1</data>
+      <data key="d4">0.00251606024676</data>
+      <data key="d5">1000</data>
+    </edge>
+    <edge source="Sunnyvale" target="Portland">
+      <data key="d2">100Gbps</data>
+      <data key="d3">1</data>
+      <data key="d4">0.00453276912314</data>
+      <data key="d5">1000</data>
+    </edge>
+    <edge source="Sunnyvale" target="Salt_Lake_City">
+      <data key="d2">100Gbps</data>
+      <data key="d3">1</data>
+      <data key="d4">0.00476461962969</data>
+      <data key="d5">1000</data>
+    </edge>
+    <edge source="Nashville" target="Louisville">
+      <data key="d2">100Gbps</data>
+      <data key="d3">1</data>
+      <data key="d4">0.00124365080058</data>
+      <data key="d5">1000</data>
+    </edge>
+    <edge source="Nashville" target="Memphis">
+      <data key="d2">100Gbps</data>
+      <data key="d3">1</data>
+      <data key="d4">0.00158177964829</data>
+      <data key="d5">1000</data>
+    </edge>
+    <edge source="Nashville" target="Atlanta">
+      <data key="d2">100Gbps</data>
+      <data key="d3">1</data>
+      <data key="d4">0.00172953712766</data>
+      <data key="d5">1000</data>
+    </edge>
+    <edge source="Raleigh" target="Atlanta">
+      <data key="d2">100Gbps</data>
+      <data key="d3">1</data>
+      <data key="d4">0.00285823964214</data>
+      <data key="d5">1000</data>
+    </edge>
+    <edge source="Raleigh" target="Washington">
+      <data key="d2">100Gbps</data>
+      <data key="d3">1</data>
+      <data key="d4">0.00186690682833</data>
+      <data key="d5">1000</data>
+    </edge>
+    <edge source="Chicago" target="Indianapolis">
+      <data key="d2">100Gbps</data>
+      <data key="d3">1</data>
+      <data key="d4">0.00133187913866</data>
+      <data key="d5">1000</data>
+    </edge>
+    <edge source="Chicago" target="Kansas_City">
+      <data key="d2">100Gbps</data>
+      <data key="d3">1</data>
+      <data key="d4">0.00331874650553</data>
+      <data key="d5">1000</data>
+    </edge>
+    <edge source="Chicago" target="Minneapolis">
+      <data key="d2">100Gbps</data>
+      <data key="d3">1</data>
+      <data key="d4">0.00285011350871</data>
+      <data key="d5">1000</data>
+    </edge>
+    <edge source="Chicago" target="Cleveland">
+      <data key="d2">100Gbps</data>
+      <data key="d3">1</data>
+      <data key="d4">0.00247492350823</data>
+      <data key="d5">1000</data>
+    </edge>
+    <edge source="El_Paso" target="Albuquerque">
+      <data key="d2">100Gbps</data>
+      <data key="d3">1</data>
+      <data key="d4">0.00184984438604</data>
+      <data key="d5">1000</data>
+    </edge>
+    <edge source="El_Paso" target="Houston">
+      <data key="d2">100Gbps</data>
+      <data key="d3">1</data>
+      <data key="d4">0.00542305229028</data>
+      <data key="d5">1000</data>
+    </edge>
+    <edge source="El_Paso" target="Tucson">
+      <data key="d2">100Gbps</data>
+      <data key="d3">1</data>
+      <data key="d4">0.00212865744257</data>
+      <data key="d5">1000</data>
+    </edge>
+    <edge source="Denver" target="Salt_Lake_City">
+      <data key="d2">100Gbps</data>
+      <data key="d3">1</data>
+      <data key="d4">0.00297931089856</data>
+      <data key="d5">1000</data>
+    </edge>
+    <edge source="Denver" target="Albuquerque">
+      <data key="d2">100Gbps</data>
+      <data key="d3">1</data>
+      <data key="d4">0.00268931115862</data>
+      <data key="d5">1000</data>
+    </edge>
+    <edge source="Denver" target="Kansas_City">
+      <data key="d2">100Gbps</data>
+      <data key="d3">1</data>
+      <data key="d4">0.00448138328355</data>
+      <data key="d5">1000</data>
+    </edge>
+    <edge source="Dallas" target="Houston">
+      <data key="d2">100Gbps</data>
+      <data key="d3">1</data>
+      <data key="d4">0.00180903682744</data>
+      <data key="d5">1000</data>
+    </edge>
+    <edge source="Dallas" target="Kansas_City">
+      <data key="d2">100Gbps</data>
+      <data key="d3">1</data>
+      <data key="d4">0.00365378773086</data>
+      <data key="d5">1000</data>
+    </edge>
+    <edge source="Louisville" target="Indianapolis">
+      <data key="d2">100Gbps</data>
+      <data key="d3">1</data>
+      <data key="d4">0.000856698970117</data>
+      <data key="d5">1000</data>
+    </edge>
+    <edge source="Vancouver" target="Seattle">
+      <data key="d2">100Gbps</data>
+      <data key="d3">1</data>
+      <data key="d4">0.000965416043264</data>
+      <data key="d5">1000</data>
+    </edge>
+    <edge source="Washington" target="Philadelphia">
+      <data key="d2">100Gbps</data>
+      <data key="d3">1</data>
+      <data key="d4">0.000996457184534</data>
+      <data key="d5">1000</data>
+    </edge>
+    <edge source="Washington" target="Ashburn">
+      <data key="d2">100Gbps</data>
+      <data key="d3">1</data>
+      <data key="d4">0.000214615170369</data>
+      <data key="d5">1000</data>
+    </edge>
+    <edge source="Pittsburgh" target="Ashburn">
+      <data key="d2">100Gbps</data>
+      <data key="d3">1</data>
+      <data key="d4">0.00132244912187</data>
+      <data key="d5">1000</data>
+    </edge>
+    <edge source="Pittsburgh" target="Cleveland">
+      <data key="d2">100Gbps</data>
+      <data key="d3">1</data>
+      <data key="d4">0.000925216222223</data>
+      <data key="d5">1000</data>
+    </edge>
+    <edge source="Baton_Rouge" target="Houston">
+      <data key="d2">100Gbps</data>
+      <data key="d3">1</data>
+      <data key="d4">0.00204694783608</data>
+      <data key="d5">1000</data>
+    </edge>
+    <edge source="Baton_Rouge" target="Jacksonville">
+      <data key="d2">100Gbps</data>
+      <data key="d3">1</data>
+      <data key="d4">0.00456949380551</data>
+      <data key="d5">1000</data>
+    </edge>
+    <edge source="Los_Angeles" target="Tucson">
+      <data key="d2">100Gbps</data>
+      <data key="d3">1</data>
+      <data key="d4">0.00353544662046</data>
+      <data key="d5">1000</data>
+    </edge>
+    <edge source="Los_Angeles" target="Salt_Lake_City">
+      <data key="d2">100Gbps</data>
+      <data key="d3">1</data>
+      <data key="d4">0.00466350974211</data>
+      <data key="d5">1000</data>
+    </edge>
+    <edge source="Atlanta" target="Jacksonville">
+      <data key="d2">100Gbps</data>
+      <data key="d3">1</data>
+      <data key="d4">0.00229520919374</data>
+      <data key="d5">1000</data>
+    </edge>
+    <edge source="Memphis" target="Jackson">
+      <data key="d2">100Gbps</data>
+      <data key="d3">1</data>
+      <data key="d4">0.00158599557917</data>
+      <data key="d5">1000</data>
+    </edge>
+    <edge source="Jacksonville" target="Miami">
+      <data key="d2">100Gbps</data>
+      <data key="d3">1</data>
+      <data key="d4">0.00265129584621</data>
+      <data key="d5">1000</data>
+    </edge>
+    <edge source="Missoula" target="Seattle">
+      <data key="d2">100Gbps</data>
+      <data key="d3">1</data>
+      <data key="d4">0.0031696747202</data>
+      <data key="d5">1000</data>
+    </edge>
+    <edge source="Missoula" target="Minneapolis">
+      <data key="d2">100Gbps</data>
+      <data key="d3">1</data>
+      <data key="d4">0.00806094862634</data>
+      <data key="d5">1000</data>
+    </edge>
+    <edge source="Philadelphia" target="New_York">
+      <data key="d2">100Gbps</data>
+      <data key="d3">1</data>
+      <data key="d4">0.000647444847461</data>
+      <data key="d5">1000</data>
+    </edge>
+    <edge source="Buffalo" target="Boston">
+      <data key="d2">100Gbps</data>
+      <data key="d3">1</data>
+      <data key="d4">0.00321163171633</data>
+      <data key="d5">1000</data>
+    </edge>
+    <edge source="Buffalo" target="Cleveland">
+      <data key="d2">100Gbps</data>
+      <data key="d3">1</data>
+      <data key="d4">0.00138931970871</data>
+      <data key="d5">1000</data>
+    </edge>
+    <edge source="Houston" target="Jackson">
+      <data key="d2">100Gbps</data>
+      <data key="d3">1</data>
+      <data key="d4">0.00284566493052</data>
+      <data key="d5">1000</data>
+    </edge>
+    <edge source="Boston" target="New_York">
+      <data key="d2">100Gbps</data>
+      <data key="d3">1</data>
+      <data key="d4">0.00153034096066</data>
+      <data key="d5">1000</data>
+    </edge>
+    <edge source="Salt_Lake_City" target="Seattle">
+      <data key="d2">100Gbps</data>
+      <data key="d3">1</data>
+      <data key="d4">0.00563002904129</data>
+      <data key="d5">1000</data>
+    </edge>
+    <edge source="Portland" target="Seattle">
+      <data key="d2">100Gbps</data>
+      <data key="d3">1</data>
+      <data key="d4">0.00117028754659</data>
+      <data key="d5">1000</data>
+    </edge>
+  </graph>
+</graphml>
